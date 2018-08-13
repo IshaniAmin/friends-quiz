@@ -1,1 +1,45 @@
-<h1> This is a view </h1>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FRIENDS TRIVIA</title>
+    </head>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <body>
+        <h1>How much do you know about Friends?</h1>
+        
+        <img src="https://media.giphy.com/media/lfmYxOkGpNtEk/giphy.gif">
+        
+        <br><br>
+        
+        <img class="individuals" src="https://media.giphy.com/media/KiaU2EUyxjQB2/giphy.gif">
+        <img class="individuals" src="https://media.giphy.com/media/Gf3fU0qPtI6uk/giphy.gif">
+        <img class="individuals" src="https://media.giphy.com/media/j2lrqc55ecjLO/giphy.gif">
+        <img class="individuals" src="https://media.giphy.com/media/hpnRtHDXmzhLO/giphy.gif">
+        <img class="individuals" src="https://media.giphy.com/media/w5M9QgelugIJG/giphy.gif">
+        <img class="individuals" src="https://media.giphy.com/media/QdPNdgj81NaDu/giphy.gif">
+        
+        
+        <form method="POST" action="/results">
+            
+            <h2>Q1?</h2>
+                <input type="radio" name="artist" value="0">A1<br>
+                <input type="radio" name="artist" value="5">A2<br>
+            
+            <h2>Q2</h2>
+                <input type="radio" name="home" value="0">A1<br>
+                <input type="radio" name="home" value="5">A2 York<br>
+            
+            <h2>Q3</h2>
+                <input type="radio" name="food" value="0">A1<br>
+                <input type="radio" name="food" value="5">A2<br>
+            
+            <br>
+            <button type="submit">Let's see how well you know Friends!</button>
+            
+        </form>
+        
+    </body>
+</html>
